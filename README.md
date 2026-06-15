@@ -1,11 +1,32 @@
-# GCT153 - Estruturas de Dados II
-## Atividade 01 - Grafos: Rotas, Conectividade e Redes de Menor Custo
+# Atividade 01 – Grafos: Rotas, Conectividade e Redes de Menor Custo
 
-Este repositório contém a implementação prática da **Atividade 01** desenvolvida na linguagem Python. 
+Disciplina: Estruturas de Dados II
 
-### -> Como executar o projeto
+Autora: Milena Duarte Costa
 
-1. **Pré-requisitos**: Certifique-se de possuir o Python 3.x instalado em sua máquina.
-2. **Execução**: Abra o terminal na pasta raiz do projeto e execute:
-   ```bash
-   python src/main.py
+## Objetivo
+
+Implementar um grafo ponderado utilizando lista de adjacência e aplicar os algoritmos de Dijkstra, Prim e Kruskal para análise de caminhos mínimos e árvores geradoras mínimas.
+
+## Estrutura
+
+* Classe GrafoPonderado
+* Algoritmo de Dijkstra
+* Algoritmo de Prim
+* Algoritmo de Kruskal
+* Estrutura Union-Find
+
+## Execução
+
+```bash
+python main.py
+```
+
+## Resultados
+
+O programa calcula:
+
+* Menores caminhos utilizando Dijkstra;
+* Árvores geradoras mínimas utilizando Prim;
+* Árvores geradoras mínimas utilizando Kruskal;
+* Comparação entre os algoritmos.
